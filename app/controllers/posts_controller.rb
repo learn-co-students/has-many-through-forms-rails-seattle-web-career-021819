@@ -8,7 +8,9 @@ class PostsController < ApplicationController
   end
 
   def new
-    @post = Post.new
+    @posts = Post.new
+    byebug
+
   end
 
   def create
